@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Noto+Sans:ital,wght@0,400;1,300&family=Poppins:ital@1&display=swap');
+
+body{
+    background-color: #949595;
+}
+
+img{
+    margin: 20px;
+
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    justify-content: space-around;
+    background-color:  rgba(255, 247, 226, 1);
+
+} 
+
+.list{
+    width: 100%;
+    display: flex;
+    text-decoration:none;
+    justify-content: center;
+    flex-direction: row;
+    margin:20px 0px;
+    color: black;
+    text-decoration: none;
+    gap:7%;
+}
+
+Link{
+    text-decoration: none;
+    color: black;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  width: 45px;
+  height: 45px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  border:none;
+  background: linear-gradient(90.07deg, #17D059 -8%, #00ADED 104.95%);
+  border-radius: 10px;
+}
+
+button::after{
+    background: linear-gradient(90.07deg, #0b7437 -8%, #0087b2 104.95%);
+}

@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem auto;
+    align-content: center;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+table thead tr{
+    color: #000;
+    background: #83f28f;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table th,
+.table td{
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
