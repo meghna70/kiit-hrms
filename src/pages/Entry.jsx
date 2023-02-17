@@ -6,8 +6,9 @@ import Login from '../components/Login'
 import Registration from '../components/Registration'
 import { useEffect } from 'react'
 
-export default function Entry() {
+export default function Entry({setUser}) {
 
+   
     const [curr, setCurr]= useState("login");
     
     function toggleItem(){
@@ -33,7 +34,7 @@ export default function Entry() {
                  Welcome to Kiit HRMS 
               </FlexContent>
               <FlexContent>
-                 {curr=="login"? <Registration/>:<Login/>}
+                 {curr=="login"? <Registration />:<Login setUser={setUser}/>}
               </FlexContent>
         </ResponsiveFlex>
     </div>

@@ -11,7 +11,7 @@ img{
 
 .header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     font-size: 25px;
     font-weight: 500;
     line-height: 43px;
@@ -39,7 +39,7 @@ Link{
     text-decoration: none;
     color: black;
 }
-button{
+.kiit-btn{
   margin: 10px;
   padding: 10px;
   font-size: 15px;

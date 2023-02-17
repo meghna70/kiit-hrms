@@ -1,6 +1,6 @@
 import React from "react";
 
-const Successi = () => {
+const Success = () => {
     return (
         <div>
             Success
@@ -8,4 +8,4 @@ const Successi = () => {
     )
 }
 
-export default Successi;
+export default Success;

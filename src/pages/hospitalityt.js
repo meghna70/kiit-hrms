@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import './table.css'
 //import Entry from './pages/Entry';
-function hospit() {
+function Hospitalityt() {
 
   const [dataTable, setDataTable] = useState([]);
   console.log(dataTable);
@@ -60,4 +60,4 @@ const TableRow = ({ item, column }) => (
   );
 }
 
-export default hospit;
+export default Hospitalityt;
